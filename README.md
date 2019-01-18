@@ -35,4 +35,5 @@ Pdte. video o gif.
 ## Mejoras
 - Incluir los dos últimos dígitos del número de teléfono de la víctima en la página falsa de solicitud del código.
 - Modificar el flujo de ejecución para permitir distinguir si el usuario tiene 2FA o no.
+- Validar entrada de datos.
 
