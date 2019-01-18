@@ -16,11 +16,11 @@ Pdte. traducción a inglés.
 - [Selenium](https://www.seleniumhq.org/)
 
 ## ¿Qué incluye el repositorio?
-La carpeta **Pdte. poner enlace a carpeta** contiene el código de la web autenticación de Gmail, incluyendo los script que almacenan los datos en la máquina atacante.
+- La carpeta **Pdte. poner enlace a carpeta** contiene el código de la web autenticación de Gmail, incluyendo los script que almacenan los datos en la máquina atacante.
 
-**logingmail.py Pdte. poner enlace a script** contiene el código del script que lanza el navegador para iniciar sesión suplantando a la víctima, en la máquina del atacante. Este script hace uso de [Selenium](https://www.seleniumhq.org/).
+- **logingmail.py Pdte. poner enlace a script** contiene el código del script que lanza el navegador para iniciar sesión suplantando a la víctima, en la máquina del atacante. Este script hace uso de [Selenium](https://www.seleniumhq.org/).
 
-**root.sh** este fichero debe poderse ejecutar como root, para el usuario que sirve la web (www-data). Esto se configura en el fichero /etc/sudoers de la máquina atacante incluyendo la siguiente linea:
+- **root.sh** este fichero debe poderse ejecutar como root, para el usuario que sirve la web (www-data). Esto se configura en el fichero /etc/sudoers de la máquina atacante incluyendo la siguiente linea:
 
 ```
 www-data ALL=NOPASSWORD: pathtoscript/root.sh
