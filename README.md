@@ -23,7 +23,7 @@ La carpeta **Pdte. poner enlace a carpeta** contiene el código de la web autent
 **root.sh** este fichero debe poderse ejecutar como root. Esto se configura en el fichero /etc/sudoers de la máquina atacante incluyendo la siguiente linea:
 
 ```
-usuario ALL=NOPASSWORD: /root/root.sh
+www-data ALL=NOPASSWORD: /root/root.sh
 ```
 
 Pdte. traducción a inglés.
