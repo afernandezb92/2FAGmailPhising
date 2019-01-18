@@ -2,7 +2,11 @@
 ## Disclaimer
 El propósito de este repositorio es sólo educativo, no me hago responsable del mal uso que se pueda hacer de las herramientas que contiene.
 
+No soy un programador experto, todo el código se optimizará y mejorará en próximas veriones. 
+
 The purpose of this repository is only educational, I am not responsible.
+
+I'm not an expert developper, all code will be improve in next versions.
 
 ## Decripción
 La autenticación en dos factores o verificación en dos pasos (2FA) es una medida de protección de los sistemas de autenticación consistente en que el usuario presente dos pruebas demuestren que es quien dice ser. 
