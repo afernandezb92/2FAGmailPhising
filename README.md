@@ -29,3 +29,6 @@ Pdte. traducción a inglés
 
 ![alt text](https://tinypng.com/web/output/czwkpxr6ftpz22ktjbk6xju7tch26tht/Diagrama.PNG)
 
+## Mejoras
+- Incluir los dos últimos dígitos del número de teléfono de la víctima en la página falsa de solicitud del código.
+- Modificar el flujo de ejecución para permitir distinguir si el usuario tiene 2FA o no.
