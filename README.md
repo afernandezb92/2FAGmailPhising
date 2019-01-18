@@ -1,10 +1,10 @@
 # GmailPhisingWith2FA
 ## Disclaimer
 El propósito de este repositorio es sólo educativo, no me hago responsable del mal uso que se pueda hacer de las herramientas que contiene.  
-No soy un programador experto, todo el código se optimizará y mejorará en próximas veriones. 
+No soy un programador experto, todo el código se optimizará y mejorará en próximas veriones.  
   
     
-The purpose of this repository is only educational, I am not responsible.
+The purpose of this repository is only educational, I am not responsible.  
 I'm not an expert developper, all code will be improve in next versions.
 
 ## Decripción
