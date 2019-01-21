@@ -33,11 +33,11 @@ www-data ALL=NOPASSWORD: pathtoscript/root.sh
 ```
 
 _[ENG]_    
-_- **gmailPhising:** contains the code of the gmail's authetication web._
+- _**gmailPhising:** contains the code of the gmail's authetication web._
 
-_- **logingmail.py:** script for running the web browser impersonating the victim's login in the attacker machine. This makes use of [Selenium](https://www.seleniumhq.org/)._
+- _**logingmail.py:** script for running the web browser impersonating the victim's login in the attacker machine. This makes use of [Selenium](https://www.seleniumhq.org/)._
 
-_- **root.sh:** this script running **logingmail.py**. Must be run as root for user www-data. This is configured in /etc/sudoers of the attacker's machine including the following:_
+- _**root.sh:** this script running **logingmail.py**. Must be run as root for user www-data. This is configured in /etc/sudoers of the attacker's machine including the following:_
 
 ```
 www-data ALL=NOPASSWORD: pathtoscript/root.sh
