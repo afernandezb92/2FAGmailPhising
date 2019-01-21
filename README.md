@@ -8,10 +8,11 @@ The purpose of this repository is only educational, I am not responsible.
 I'm not an expert developper, all code will be improve in next versions.
 
 ## Decripción
-La autenticación en dos factores o verificación en dos pasos (2FA) es una medida de protección de los sistemas de autenticación consistente en que el usuario presente dos pruebas demuestren que es quien dice ser. 
+La autenticación en dos factores o verificación en dos pasos (2FA) es una medida de protección de los sistemas de autenticación que consiste en que el usuario presente dos pruebas demuestren que es quien dice ser. 
 En este caso , este repositorio tiene como objetivo demostrar como los atacantes consiguen evadir el 2FA para el sistema de autenticación de Gmail. Los dos factores usados en este caso son la contraseña y un código enviado al móvil del usuario.
 
-Pdte. traducción a inglés.
+Two-factor authentication (2FA) adds an additional layer of protection in authentication systems consisting of the user proof really is who he pretends to be.
+This repository aims at demonstrating how the hacker can bypass 2FA for gmail's authentication system. In this case, password and a code sent to mobile user are the two factors.
 
 ## Dependencias
 - [Apache2](https://www.apache.org/)
