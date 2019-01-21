@@ -34,7 +34,7 @@ www-data ALL=NOPASSWORD: pathtoscript/root.sh
 
 - **logingmail.py:** script for running the web browser impersonating the victim's login in the attacker machine. This makes use of [Selenium](https://www.seleniumhq.org/).
 
-- **root.sh:** this script running **logingmail.py**. Must be run as root for user ww-data. This is configured in /etc/sudoers of the attacker's machine including the following:
+- **root.sh:** this script running **logingmail.py**. Must be run as root for user www-data. This is configured in /etc/sudoers of the attacker's machine including the following:
 
 ```
 www-data ALL=NOPASSWORD: pathtoscript/root.sh
