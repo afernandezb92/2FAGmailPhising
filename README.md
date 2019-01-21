@@ -43,7 +43,7 @@ www-data ALL=NOPASSWORD: pathtoscript/root.sh
 ## Escenario
 El atacante mediante alguna de las de técnicas de hacking (dnsspoofing, ingeniería social, etc.) redirige a una victima que tiene activado 2FA a la web que suplanta Gmail. Una vez que la víctima introduzca sus correo y contraseña en la página falsa, la máquina del atacante iniciará un navegador automáticamente, introduciendo en la web real de Gmail las credenciales de la víctima, provocando esto que reciba el mensaje con el código del 2FA. Cuando la víctima reciba el código lo introducirá en la página falsa y cuando lo introduzca la máquina del atacante obtendrá ese código y completará el inicio de sesión en la web legítima de Gmail, obteniendo así el acceso a la cuenta de la víctima.
 
-Pdte. traducción a inglés.
+The attacker using hacking techniques (dnsspoofing, social engineering, etc.) redirect victim with 2FA in gmail to fake gmail web. 
 
 ![alt text](https://tinypng.com/web/output/czwkpxr6ftpz22ktjbk6xju7tch26tht/Diagrama.PNG)
 
@@ -55,4 +55,5 @@ Pdte. video o gif.
 - Modificar el flujo de ejecución para permitir distinguir si el usuario tiene 2FA o no.
 - Validar entrada de datos.
 - Fichero de log.
+- Sanetizar las entradas de datos.
 
