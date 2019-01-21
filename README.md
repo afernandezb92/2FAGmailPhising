@@ -52,7 +52,7 @@ The attacker using hacking techniques (dnsspoofing, social engineering, etc.) re
 ![alt text](https://tinypng.com/web/output/czwkpxr6ftpz22ktjbk6xju7tch26tht/Diagrama.PNG)
 
 ## POC
-<img src="https://media.giphy.com/media/2lZMhmnVpNekhkOibo/giphy.gif" width="400" height="400" />
+<img src="https://media.giphy.com/media/2lZMhmnVpNekhkOibo/giphy.gif" width="2000" height="500" />
 
 ## Mejoras
 - Incluir los dos últimos dígitos del número de teléfono de la víctima en la página falsa de solicitud del código.
