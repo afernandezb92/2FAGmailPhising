@@ -4,14 +4,16 @@ El propósito de este repositorio es sólo educativo, no me hago responsable del
 No soy un programador experto, todo el código se optimizará y mejorará en próximas veriones.  
   
     
-_[ENG]The purpose of this repository is only educational, I am not responsible.  
+_[ENG]  
+The purpose of this repository is only educational, I am not responsible.  
 I'm not an expert developper, all code will be improve in next versions._
 
 ## Decripción
 La autenticación en dos factores o verificación en dos pasos (2FA) es una medida de protección de los sistemas de autenticación que consiste en que el usuario presente dos pruebas demuestren que es quien dice ser. 
 En este caso , este repositorio tiene como objetivo demostrar como los atacantes consiguen evadir el 2FA para el sistema de autenticación de Gmail. Los dos factores usados en este caso son la contraseña y un código enviado al móvil del usuario.
 
-_[ENG]Two-factor authentication (2FA) adds an additional layer of protection in authentication systems consisting of the user proof really is who he pretends to be.
+_[ENG]  
+Two-factor authentication (2FA) adds an additional layer of protection in authentication systems consisting of the user proof really is who he pretends to be.
 This repository aims at demonstrating how the hacker can bypass 2FA for gmail's authentication system. In this case, password and a code sent to mobile user are the two factors._
 
 ## Dependencias
@@ -30,11 +32,12 @@ This repository aims at demonstrating how the hacker can bypass 2FA for gmail's 
 www-data ALL=NOPASSWORD: pathtoscript/root.sh
 ```
 
-_[ENG]- **gmailPhising:** contains the code of the gmail's authetication web._
+_[ENG]  
+_- **gmailPhising:** contains the code of the gmail's authetication web._
 
-_- **logingmail.py:** script for running the web browser impersonating the victim's login in the attacker machine. This makes use of [Selenium](https://www.seleniumhq.org/).
+_- **logingmail.py:** script for running the web browser impersonating the victim's login in the attacker machine. This makes use of [Selenium](https://www.seleniumhq.org/)._
 
-_- **root.sh:** this script running **logingmail.py**. Must be run as root for user www-data. This is configured in /etc/sudoers of the attacker's machine including the following:
+_- **root.sh:** this script running **logingmail.py**. Must be run as root for user www-data. This is configured in /etc/sudoers of the attacker's machine including the following:_
 
 ```
 www-data ALL=NOPASSWORD: pathtoscript/root.sh
