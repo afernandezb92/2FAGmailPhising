@@ -20,17 +20,25 @@ This repository aims at demonstrating how the hacker can bypass 2FA for gmail's 
 - [Selenium](https://www.seleniumhq.org/)
 
 ## ¿Qué incluye el repositorio?
-- La carpeta **Pdte. poner enlace a carpeta** contiene el código de la web autenticación de Gmail, incluyendo los script que almacenan los datos en la máquina atacante.
+- **gmailPhising:** contiene el código de la web autenticación de Gmail, incluyendo los script que almacenan los datos en la máquina atacante.
 
-- **logingmail.py Pdte. poner enlace a script** contiene el código del script que lanza el navegador para iniciar sesión suplantando a la víctima, en la máquina del atacante. Este script hace uso de [Selenium](https://www.seleniumhq.org/).
+- **logingmail.py:** contiene el código del script que lanza el navegador para iniciar sesión suplantando a la víctima, en la máquina del atacante. Este script hace uso de [Selenium](https://www.seleniumhq.org/).
 
-- **root.sh** este script es el encagado de ejecutar **logingmail.py**. Debe poderse ejecutar como root, para el usuario que sirve la web (www-data). Esto se configura en el fichero /etc/sudoers, de la máquina atacante, incluyendo la siguiente linea:
+- **root.sh:** este script es el encagado de ejecutar **logingmail.py**. Debe poderse ejecutar como root para el usuario que sirve la web (www-data). Esto se configura en el fichero /etc/sudoers, de la máquina atacante, incluyendo la siguiente linea:
 
 ```
 www-data ALL=NOPASSWORD: pathtoscript/root.sh
 ```
 
-Pdte. traducción a inglés.
+- **gmailPhising:** contains the code of the gmail's authetication web.
+
+- **logingmail.py:** script for running the web browser impersonating the victim's login in the attacker machine. This makes use of [Selenium](https://www.seleniumhq.org/).
+
+- **root.sh:** this script running **logingmail.py**. Must be run as root for user ww-data. This is configured in /etc/sudoers of the attacker's machine including the following:
+
+```
+www-data ALL=NOPASSWORD: pathtoscript/root.sh
+```
 
 ## Escenario
 El atacante mediante alguna de las de técnicas de hacking (dnsspoofing, ingeniería social, etc.) redirige a una victima que tiene activado 2FA a la web que suplanta Gmail. Una vez que la víctima introduzca sus correo y contraseña en la página falsa, la máquina del atacante iniciará un navegador automáticamente, introduciendo en la web real de Gmail las credenciales de la víctima, provocando esto que reciba el mensaje con el código del 2FA. Cuando la víctima reciba el código lo introducirá en la página falsa y cuando lo introduzca la máquina del atacante obtendrá ese código y completará el inicio de sesión en la web legítima de Gmail, obteniendo así el acceso a la cuenta de la víctima.
