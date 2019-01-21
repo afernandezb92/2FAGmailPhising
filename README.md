@@ -54,6 +54,8 @@ The attacker using hacking techniques (dnsspoofing, social engineering, etc.) re
 ## POC
 ![Alt Text](https://media.giphy.com/media/2lZMhmnVpNekhkOibo/giphy.gif)
 
+<img src="https://media.giphy.com/media/2lZMhmnVpNekhkOibo/giphy.gif" width="40" height="40" />
+
 ## Mejoras
 - Incluir los dos últimos dígitos del número de teléfono de la víctima en la página falsa de solicitud del código.
 - Modificar el flujo de ejecución para permitir distinguir si el usuario tiene 2FA o no.
