@@ -32,7 +32,7 @@ This repository aims at demonstrating how the hacker can bypass 2FA for gmail's 
 www-data ALL=NOPASSWORD: pathtoscript/root.sh
 ```
 
-_[ENG]  
+_[ENG]_    
 _- **gmailPhising:** contains the code of the gmail's authetication web._
 
 _- **logingmail.py:** script for running the web browser impersonating the victim's login in the attacker machine. This makes use of [Selenium](https://www.seleniumhq.org/)._
