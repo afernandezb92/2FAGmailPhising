@@ -5,7 +5,7 @@ No soy un programador experto, todo el código se optimizará y mejorará en pr�
   
     
 _[ENG]  
-This repository is meant for educational purposes only
+This repository is meant for educational purposes only.  
 I'm not an expert developer, the code will be improved in futher versions._
 
 ## Decripción
