@@ -26,7 +26,7 @@ This repository aims at demonstrating how the attackers can bypass 2FA for gmail
 
 - **logingmail.py:** contiene el código del script que lanza el navegador para iniciar sesión suplantando a la víctima, en la máquina del atacante. Este script hace uso de [Selenium](https://www.seleniumhq.org/).
 
-- **root.sh:** este script es el encagado de ejecutar **logingmail.py**. Debe poderse ejecutar como root para el usuario que sirve la web (www-data). Esto se configura en el fichero /etc/sudoers, de la máquina atacante, incluyendo la siguiente linea:
+- **root.sh:** este script es el encargado de ejecutar **logingmail.py**. Debe poderse ejecutar como root para el usuario que sirve la web (www-data). Esto se configura en el fichero /etc/sudoers, de la máquina atacante, incluyendo la siguiente linea:
 
 ```
 www-data ALL=NOPASSWORD: pathtoscript/root.sh
