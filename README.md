@@ -29,7 +29,7 @@ This repository aims at demonstrating how the attackers can bypass 2FA for gmail
 - **root.sh:** este script es el encargado de ejecutar **logingmail.py**. Debe poderse ejecutar como root para el usuario que sirve la web (www-data). Esto se configura en el fichero /etc/sudoers, de la máquina atacante, incluyendo la siguiente linea:
 
 ```
-www-data ALL=NOPASSWORD: pathtoscript/root.sh
+www-data ALL=(user) NOPASSWD: pathtoscript/root.sh
 ```
 
 _[ENG]_    
@@ -40,7 +40,7 @@ _[ENG]_
 - _**root.sh:** this script running **logingmail.py**. Must be run as root for user www-data. This is configured in /etc/sudoers of the attacker's machine including the following:_
 
 ```
-www-data ALL=NOPASSWORD: pathtoscript/root.sh
+www-data ALL=(user) NOPASSWD: pathtoscript/root.sh
 ```
 
 ## How to run
